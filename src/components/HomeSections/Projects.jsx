@@ -47,11 +47,13 @@ const Projects = () => {
               style={{ margin: "0", height: "60vw", width: 'auto' }}
               className={`${classes["work-img"]} col-12`}
               src={`${process.env.PUBLIC_URL}/static/images/fungry-01.jpg`}
+              alt='Fungry project 1'
             />
             <img
               style={{ margin: "0", height: "60vw", width: 'auto' }}
               className={`${classes["work-img"]} col-12`}
               src={`${process.env.PUBLIC_URL}/static/images/fungry-02.jpg`}
+              alt='Fungry project 2'
             />
           </div>
         </a>
@@ -81,11 +83,13 @@ const Projects = () => {
               style={{ margin: "0", height: "60vw", width: 'auto' }}
               className={`${classes["work-img"]} col-12`}
               src={`${process.env.PUBLIC_URL}/static/images/oddience-01.jpg`}
+              alt='Oddience project 1'
             />
             <img
               style={{ margin: "0", height: "60vw", width: 'auto' }}
               className={`${classes["work-img"]} col-12`}
               src={`${process.env.PUBLIC_URL}/static/images/oddience-02.jpg`}
+              alt='Oddience project 2'
             />
           </div>
         </a>
@@ -102,7 +106,8 @@ const Projects = () => {
           <img
             className={`mt-4 ${classes["work-img"]} col-12`}
             src={`${process.env.PUBLIC_URL}/static/images/jaysite1.png`}
-          />
+            alt='Joy Aifuobhokhan project 1'
+            />
         </a>
       </div>
       <div className="row ">
@@ -116,6 +121,7 @@ const Projects = () => {
           <img
             className={`mt-4 ${classes["work-img"]} col-12`}
             src={`${process.env.PUBLIC_URL}/static/images/aspire1.png`}
+            alt='Aspire project 1'
           />
         </a>
       </div>
@@ -130,6 +136,7 @@ const Projects = () => {
           <img
             className={`mt-4 ${classes["work-img"]} col-12`}
             src={`${process.env.PUBLIC_URL}/static/images/expensetracker2.png`}
+            alt='Trakk project 1'
           />
         </a>
       </div>
