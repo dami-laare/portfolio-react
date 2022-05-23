@@ -1,4 +1,5 @@
 import "./App.css";
+import "animate.css/animate.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/UI/Header";
 import Home from "./components/HomeSections/Home";

@@ -44,14 +44,14 @@ const Projects = () => {
             }}
           >
             <img
-              style={{ margin: "0", height: "60vw", width: 'auto' }}
-              className={`${classes["work-img"]} col-12`}
+              
+              className={`${classes["work-img-mobile"]} col-12`}
               src={`${process.env.PUBLIC_URL}/static/images/fungry-01.jpg`}
               alt='Fungry project 1'
             />
             <img
-              style={{ margin: "0", height: "60vw", width: 'auto' }}
-              className={`${classes["work-img"]} col-12`}
+              
+              className={`${classes["work-img-mobile"]} col-12`}
               src={`${process.env.PUBLIC_URL}/static/images/fungry-02.jpg`}
               alt='Fungry project 2'
             />
@@ -80,14 +80,14 @@ const Projects = () => {
             }}
           >
             <img
-              style={{ margin: "0", height: "60vw", width: 'auto' }}
-              className={`${classes["work-img"]} col-12`}
+              
+              className={`${classes["work-img-mobile"]} col-12`}
               src={`${process.env.PUBLIC_URL}/static/images/oddience-01.jpg`}
               alt='Oddience project 1'
             />
             <img
-              style={{ margin: "0", height: "60vw", width: 'auto' }}
-              className={`${classes["work-img"]} col-12`}
+              
+              className={`${classes["work-img-mobile"]} col-12`}
               src={`${process.env.PUBLIC_URL}/static/images/oddience-02.jpg`}
               alt='Oddience project 2'
             />
@@ -141,11 +141,11 @@ const Projects = () => {
         </a>
       </div>
 
-      <p className='text-center'>
+      <p className='text-center' style={{flexBasis: '100%'}}>
         <i style={{ color: "#000" }} class="fas fa-cogs"></i>{" "}
         <span style={{ fontSize: "0.7rem" }}>= In Development</span>
       </p>
-      <p className='text-center'>
+      <p className='text-center' style={{flexBasis: '100%'}}>
         "PWA"{" "}
         <span style={{ fontSize: "0.7rem" }}>= Progressive Web Application</span>
       </p>
