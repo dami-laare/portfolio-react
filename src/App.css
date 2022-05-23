@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+  text-align: center;
+  border-bottom: 3px solid transparent;
+  transition: 100ms, color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  font-weight: 400;
+  padding: 1.2rem 2rem;
+  color: black !important;
+}
+
+.navbar-toggler {
+  margin: 1.2rem 0;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid rgb(73, 73, 73);
+  color: rgb(122, 122, 122) !important;
+}
+
+/* .navbar-collapse.show a {
+  padding: 1rem 0;
+} */
