@@ -21,6 +21,10 @@
   color: rgb(122, 122, 122) !important;
 }
 
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
 /* .navbar-collapse.show a {
   padding: 1rem 0;
 } */
