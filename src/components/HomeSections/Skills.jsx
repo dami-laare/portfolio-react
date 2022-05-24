@@ -6,11 +6,12 @@ const Skills = () => {
     {icon: "html5", desc: 'HTML 5'},
     {icon: "css3-alt", desc: 'CSS 3'},
     {icon: "js-square", desc: 'JAVASCRIPT'},
-    {icon: "python", desc: 'PYTHON'},
-    {icon: "bootstrap", desc: 'BOOTSTRAP 5'},
-    {icon: "sass", desc: 'SASS'},
     {icon: "react", desc: 'REACT JS'},
     {icon: "node", desc: 'NODE JS'},
+    {icon: "bootstrap", desc: 'BOOTSTRAP 5'},
+    {icon: "google", desc: 'GOOGLE TAG MANAGER'},
+    {icon: "sass", desc: 'SASS'},
+    {icon: "python", desc: 'PYTHON'},
   ];
   return (
     <section className={`${classes.section} mt-5 fade-in`} id="skills">
