@@ -43,22 +43,13 @@ const Header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ms-auto">
-                <Nav.Link
-                  onMouseEnter={() => {
-                    console.log("Enter");
-                  }}
-                  onMouseLeave={() => {
-                    console.log("left");
-                  }}
-                  href="#about"
-                  className="mx-3"
-                >
+                <Nav.Link href="/#about" className="mx-3">
                   About
                 </Nav.Link>
-                <Nav.Link href="#skills" className="mx-3">
+                <Nav.Link href="/#skills" className="mx-3">
                   Skills
                 </Nav.Link>
-                <Nav.Link href="#work" className="mx-3">
+                <Nav.Link href="/#work" className="mx-3">
                   Projects
                 </Nav.Link>
                 <Nav.Link
