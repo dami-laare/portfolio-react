@@ -66,7 +66,7 @@ const Projects = () => {
           WEB DEVELOPMENT (FULLSTACK) AND MAINTENANCE (WEB APP)
         </h4>
         <a
-          href="https://stellular-mandazi-a2b5b2.netlify.app/"
+          href="https://adorable-torte-247a98.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
