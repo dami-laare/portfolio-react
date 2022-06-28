@@ -129,7 +129,7 @@ const Projects = () => {
         <h3 className="col-12">TRAKK</h3>
         <h4 className="col-12">WEB DEVELOPMENT</h4>
         <a
-          href="https://compassionate-nobel-bd9769.netlify.app/"
+          href="https://zippy-cucurucho-83c03c.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
