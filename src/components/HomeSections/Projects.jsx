@@ -114,7 +114,7 @@ const Projects = () => {
         <h3 className="col-12">ASPIRE</h3>
         <h4 className="col-12">WEB DEVELOPMENT</h4>
         <a
-          href="https://priceless-bartik-335d29.netlify.app/"
+          href="https://aspire.dev-nexus.com/"
           target="_blank"
           rel="noreferrer"
         >
