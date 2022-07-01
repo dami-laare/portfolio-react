@@ -20,7 +20,7 @@ const Header = () => {
       <Container>
         <Navbar.Brand className={classes.brand}>
           {location.pathname === "/" ? (
-            "DevNEXUS"
+            "Dev_NEXUS"
           ) : (
             <Link
               style={{
@@ -34,7 +34,7 @@ const Header = () => {
               }}
               to="/"
             >
-              DevNEXUS
+              Dev_NEXUS
             </Link>
           )}
         </Navbar.Brand>
