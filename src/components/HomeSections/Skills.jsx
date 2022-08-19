@@ -70,15 +70,41 @@ const Skills = () => {
       desc: "NODE JS",
     },
     {
-      icon: <FaBootstrap style={{ display: "inline" }} />,
+      icon: (
+        <FaBootstrap
+          className={`${classes["skill-icon"]}`}
+          style={{ display: "inline" }}
+        />
+      ),
       desc: "BOOTSTRAP 5",
     },
     {
-      icon: <FaGoogle style={{ display: "inline" }} />,
+      icon: (
+        <FaGoogle
+          className={`${classes["skill-icon"]}`}
+          style={{ display: "inline" }}
+        />
+      ),
       desc: "GOOGLE TAG MANAGER",
     },
-    { icon: <FaSass style={{ display: "inline" }} />, desc: "SASS" },
-    { icon: <FaPython style={{ display: "inline" }} />, desc: "PYTHON" },
+    {
+      icon: (
+        <FaSass
+          className={`${classes["skill-icon"]}`}
+          style={{ display: "inline" }}
+        />
+      ),
+      desc: "SASS",
+    },
+    {
+      icon: (
+        <FaPython
+          className={`${classes["skill-icon"]}`}
+          style={{ display: "inline" }}
+        />
+      ),
+      desc: "PYTHON",
+    },
   ];
   return (
     <section className={`${classes.section} mt-5 fade-in`} id="skills">
