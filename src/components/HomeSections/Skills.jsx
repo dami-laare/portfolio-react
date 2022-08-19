@@ -64,7 +64,12 @@ const Skills = () => {
       icon: (
         <FaNode
           className={`${classes["skill-icon"]}`}
-          style={{ display: "inline" }}
+          style={{
+            display: "inline",
+            fontSize: "5rem !important",
+            marginBottom: "0.5rem !important",
+            marginTop: "0.5rem !important",
+          }}
         />
       ),
       desc: "NODE JS",
@@ -91,7 +96,12 @@ const Skills = () => {
       icon: (
         <FaSass
           className={`${classes["skill-icon"]}`}
-          style={{ display: "inline" }}
+          style={{
+            display: "inline",
+            fontSize: "5rem !important",
+            marginTop: "0.5rem !important",
+            marginBottom: "0.5rem !important",
+          }}
         />
       ),
       desc: "SASS",
