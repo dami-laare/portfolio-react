@@ -16,94 +16,39 @@ import classes from "./HomeSections.module.css";
 const Skills = () => {
   const skills = [
     {
-      icon: (
-        <FaHtml5
-          className={`${classes["skill-icon"]}`}
-          style={{ display: "inline" }}
-        />
-      ),
+      icon: <FaHtml5 className={`${classes["skill-icon"]}`} />,
       desc: "HTML 5",
     },
     {
-      icon: (
-        <FaCss3Alt
-          className={`${classes["skill-icon"]}`}
-          style={{ display: "inline" }}
-        />
-      ),
+      icon: <FaCss3Alt className={`${classes["skill-icon"]}`} />,
       desc: "CSS 3",
     },
     {
-      icon: (
-        <FaJsSquare
-          className={`${classes["skill-icon"]}`}
-          style={{ display: "inline" }}
-        />
-      ),
+      icon: <FaJsSquare className={`${classes["skill-icon"]}`} />,
       desc: "JAVASCRIPT",
     },
     {
-      icon: (
-        <SiTypescript
-          className={`${classes["skill-icon"]}`}
-          style={{ display: "inline" }}
-        />
-      ),
+      icon: <SiTypescript className={`${classes["skill-icon-sm"]}`} />,
       desc: "TYPESCRIPT",
     },
     {
-      icon: (
-        <FaReact
-          className={`${classes["skill-icon"]}`}
-          style={{ display: "inline" }}
-        />
-      ),
+      icon: <FaReact className={`${classes["skill-icon"]}`} />,
       desc: "REACT JS",
     },
     {
-      icon: (
-        <FaNode
-          className={`${classes["skill-icon"]}`}
-          style={{
-            display: "inline",
-            fontSize: "5rem !important",
-            marginBottom: "0.5rem !important",
-            marginTop: "0.5rem !important",
-          }}
-        />
-      ),
+      icon: <FaNode className={`${classes["skill-icon"]}`} />,
       desc: "NODE JS",
     },
     {
-      icon: (
-        <FaBootstrap
-          className={`${classes["skill-icon"]}`}
-          style={{ display: "inline" }}
-        />
-      ),
+      icon: <FaBootstrap className={`${classes["skill-icon"]}`} />,
       desc: "BOOTSTRAP 5",
     },
     {
-      icon: (
-        <FaGoogle
-          className={`${classes["skill-icon"]}`}
-          style={{ display: "inline" }}
-        />
-      ),
+      icon: <FaGoogle className={`${classes["skill-icon-sm"]}`} />,
       desc: "GOOGLE TAG MANAGER",
     },
     {
-      icon: (
-        <FaSass
-          className={`${classes["skill-icon"]}`}
-          style={{
-            display: "inline",
-            fontSize: "5rem !important",
-            marginTop: "0.5rem !important",
-            marginBottom: "0.5rem !important",
-          }}
-        />
-      ),
+      icon: <FaSass className={`${classes["skill-icon"]}`} />,
       desc: "SASS",
     },
     {
