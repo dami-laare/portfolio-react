@@ -53,7 +53,7 @@ const Header = () => {
                   Projects
                 </Nav.Link>
                 <Nav.Link
-                  href={`${process.env.PUBLIC_URL}/static/files/Osunkiyesi Temitayo CV 13-05-2022.pdf`}
+                  href={`${process.env.PUBLIC_URL}/static/files/temitayo_osunkiyesi_resume.pdf`}
                   className="mx-3"
                   id='header-resume'
                 >

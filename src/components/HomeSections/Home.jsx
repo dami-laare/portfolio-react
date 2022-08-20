@@ -9,7 +9,7 @@ import Skills from "./Skills";
 const Home = () => {
   return (
     <div>
-      <AnimationOnScroll initiallyVisible={true}  animateIn="animate__bounceIn">
+      <AnimationOnScroll initiallyVisible={true} animateIn="animate__bounceIn">
         <Main />
       </AnimationOnScroll>
       <AnimationOnScroll animateIn="animate__bounceIn">
@@ -21,7 +21,6 @@ const Home = () => {
       <AnimationOnScroll animateIn="animate__bounceIn">
         <Projects />
       </AnimationOnScroll>
-
       <Contact />
     </div>
   );
