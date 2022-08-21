@@ -123,17 +123,25 @@
 }
 
 .work-img {
-  width: 80%;
-  height: auto;
+  margin: 2rem auto 0 !important;
+  flex-basis: 40%;
+  height: fit-content;
   margin-left: auto;
   border-radius: 0.4rem;
+  overflow: hidden;
 }
 
 .work-img-mobile {
-  width: 40%;
+  width: 40% !important;
+  flex-basis: 40% !important;
   height: auto;
   margin: 0;
   border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+.work-img-inner {
+  width: 100%;
 }
 
 .contact h2 {
@@ -177,21 +185,21 @@
     flex-basis: 40%;
   }
   .work-img {
-    width: 80%;
+    width: 80% !important;
     transition: 200ms;
   }
 
-  .work-img-mobile {
+  .work-img-inner {
     transition: 200ms;
   }
 
-  .work-img-mobile:hover {
-    width: 42%;
+  .work-img-inner:hover {
+    transform: scale(1.05);
   }
 
-  .work-img:hover {
+  /* .work-img:hover {
     width: 83%;
-  }
+  } */
 
   .main {
     height: 24rem;
