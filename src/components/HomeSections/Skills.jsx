@@ -10,7 +10,7 @@ import {
   FaSass,
   FaPython,
 } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiTailwindcss } from "react-icons/si";
 import classes from "./HomeSections.module.css";
 
 const skills = [
@@ -37,6 +37,10 @@ const skills = [
   {
     icon: <FaCss3Alt className={`${classes["skill-icon"]}`} />,
     desc: "CSS 3",
+  },
+  {
+    icon: <SiTailwindcss className={`${classes["skill-icon"]}`} />,
+    desc: "TAILWIND CSS",
   },
   {
     icon: <FaBootstrap className={`${classes["skill-icon"]}`} />,
