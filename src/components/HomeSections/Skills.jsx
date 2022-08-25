@@ -67,7 +67,7 @@ const skills = [
 
 const Skills = () => {
   const [showAllSkills, setShowAllSkills] = useState(false);
-  const [activeSkills, setActiveSkills] = useState([]);
+  const [activeSkills, setActiveSkills] = useState(skills.slice(0, 4));
 
   useEffect(() => {
     setActiveSkills(skills.slice(0, showAllSkills ? 4 : skills.length));
@@ -105,7 +105,7 @@ const Skills = () => {
         }}
         onClick={() => setShowAllSkills((prevVal) => !prevVal)}
       >
-        {showAllSkills ? "MORE" : "LESS"}
+        {showAllSkills ? "LESS" : "MORE"}
       </button>
     </section>
   );
