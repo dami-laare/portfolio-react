@@ -70,7 +70,7 @@ const Skills = () => {
   const [activeSkills, setActiveSkills] = useState(skills.slice(0, 4));
 
   useEffect(() => {
-    setActiveSkills(skills.slice(0, showAllSkills ? 4 : skills.length));
+    setActiveSkills(skills.slice(0, showAllSkills ? skills.length : 4));
   }, [showAllSkills]);
 
   return (
