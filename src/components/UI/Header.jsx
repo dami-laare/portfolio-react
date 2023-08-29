@@ -43,19 +43,20 @@ const Header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ms-auto">
-                <Nav.Link id='header-about' href="/#about" className="mx-3">
+                <Nav.Link id="header-about" href="/#about" className="mx-3">
                   About
                 </Nav.Link>
-                <Nav.Link id='header-skills' href="/#skills" className="mx-3">
+                <Nav.Link id="header-skills" href="/#skills" className="mx-3">
                   Skills
                 </Nav.Link>
-                <Nav.Link id='header-projects' href="/#work" className="mx-3">
+                <Nav.Link id="header-projects" href="/#work" className="mx-3">
                   Projects
                 </Nav.Link>
                 <Nav.Link
                   href={`${process.env.PUBLIC_URL}/static/files/temitayo_osunkiyesi_resume.pdf`}
                   className="mx-3"
-                  id='header-resume'
+                  id="header-resume"
+                  download
                 >
                   Resume
                 </Nav.Link>
