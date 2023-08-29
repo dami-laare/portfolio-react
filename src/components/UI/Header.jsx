@@ -2,6 +2,7 @@ import React, { Fragment, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import classes from "./Header.module.css";
+import resume from "../../static/files/temitayo_osunkiyesi _resume.pdf";
 
 const Header = () => {
   const location = useLocation();
@@ -53,7 +54,7 @@ const Header = () => {
                   Projects
                 </Nav.Link>
                 <Nav.Link
-                  href={`${process.env.PUBLIC_URL}/static/files/temitayo_osunkiyesi_resume.pdf`}
+                  href={resume}
                   className="mx-3"
                   id="header-resume"
                   download

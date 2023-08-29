@@ -1,5 +1,11 @@
 import React from "react";
 import classes from "./HomeSections.module.css";
+import sourcemygadgets from "../../static/images/smg.jpg";
+import savetobuy from "../../static/images/svtb.jpg";
+import oddience from "../../static/images/oddience_app.jpg";
+import copystack from "../../static/images/copystack.jpg";
+import sussane from "../../static/images/susanne.jpg";
+import joy from "../../static/images/joy.jpg";
 
 const Projects = () => {
   return (
@@ -35,7 +41,7 @@ const Projects = () => {
             >
               <img
                 className={`${classes["work-img-inner"]}`}
-                src={`${process.env.PUBLIC_URL}/static/images/smg.jpg`}
+                src={sourcemygadgets}
                 alt="sourcemygadgets"
               />
             </div>
@@ -57,7 +63,7 @@ const Projects = () => {
             >
               <img
                 className={`${classes["work-img-inner"]}`}
-                src={`${process.env.PUBLIC_URL}/static/images/svtb.jpg`}
+                src={savetobuy}
                 alt="savetobuy"
               />
             </div>
@@ -82,7 +88,7 @@ const Projects = () => {
             >
               <img
                 className={`${classes["work-img-inner"]}`}
-                src={`${process.env.PUBLIC_URL}/static/images/oddience_app.jpg`}
+                src={oddience}
                 alt="oddience_app"
               />
             </div>
@@ -107,15 +113,19 @@ const Projects = () => {
             >
               <img
                 className={`${classes["work-img-inner"]}`}
-                src={`${process.env.PUBLIC_URL}/static/images/copystack.jpg`}
-                alt="oddience_app"
+                src={copystack}
+                alt="copystack"
               />
             </div>
           </a>
           <h3 className="col-12">COPYSTACK WEBSITE</h3>
         </div>
         <div>
-          <a href="https://exquisite-churros-8cc808.netlify.app/" target="_blank" rel="noreferrer">
+          <a
+            href="https://exquisite-churros-8cc808.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div
               style={{
                 margin: "0",
@@ -128,7 +138,7 @@ const Projects = () => {
             >
               <img
                 className={`${classes["work-img-inner"]}`}
-                src={`${process.env.PUBLIC_URL}/static/images/susanne.jpg`}
+                src={sussane}
                 alt="odule_sussane"
               />
             </div>
@@ -154,7 +164,7 @@ const Projects = () => {
             >
               <img
                 className={`${classes["work-img-inner"]}`}
-                src={`${process.env.PUBLIC_URL}/static/images/joy.jpg`}
+                src={joy}
                 alt="joy_aifuobhokhan"
               />
             </div>
