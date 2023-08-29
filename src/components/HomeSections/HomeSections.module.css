@@ -6,6 +6,16 @@
   align-items: center;
 }
 
+.about {
+  padding: 0;
+}
+
+.about>p {
+  font-size: 1rem !important;
+  letter-spacing: 2px !important;
+  line-height: 2rem !important;
+}
+
 /* #main-intro {
   margin-top: 7rem;
 } */
@@ -203,5 +213,13 @@
 
   .main {
     height: 24rem;
+  }
+
+  .about {
+    padding: 0 10rem;
+  }
+
+  .about>p {
+    font-size: 1.2rem !important;
   }
 }
