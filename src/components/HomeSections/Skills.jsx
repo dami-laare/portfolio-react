@@ -6,11 +6,13 @@ import {
   FaReact,
   FaNode,
   FaBootstrap,
-  FaGoogle,
+  // FaGoogle,
   FaSass,
   FaPython,
+  FaDocker,
 } from "react-icons/fa";
 import { SiTypescript, SiTailwindcss } from "react-icons/si";
+import { BiLogoPostgresql, BiLogoMongodb } from "react-icons/bi";
 import classes from "./HomeSections.module.css";
 
 const skills = [
@@ -31,12 +33,24 @@ const skills = [
     desc: "NODE JS",
   },
   {
+    icon: <FaDocker className={`${classes["skill-icon"]}`} />,
+    desc: "DOCKER",
+  },
+  {
     icon: <FaHtml5 className={`${classes["skill-icon"]}`} />,
     desc: "HTML 5",
   },
   {
     icon: <FaCss3Alt className={`${classes["skill-icon"]}`} />,
     desc: "CSS 3",
+  },
+  {
+    icon: <BiLogoPostgresql className={`${classes["skill-icon"]}`} />,
+    desc: "POSTGRESQL",
+  },
+  {
+    icon: <BiLogoMongodb className={`${classes["skill-icon"]}`} />,
+    desc: "MONGODB",
   },
   {
     icon: <SiTailwindcss className={`${classes["skill-icon"]}`} />,
@@ -46,10 +60,10 @@ const skills = [
     icon: <FaBootstrap className={`${classes["skill-icon"]}`} />,
     desc: "BOOTSTRAP 5",
   },
-  {
-    icon: <FaGoogle className={`${classes["skill-icon-sm"]}`} />,
-    desc: "GOOGLE TAG MANAGER",
-  },
+  // {
+  //   icon: <FaGoogle className={`${classes["skill-icon-sm"]}`} />,
+  //   desc: "GOOGLE TAG MANAGER",
+  // },
   {
     icon: <FaSass className={`${classes["skill-icon"]}`} />,
     desc: "SASS",
@@ -84,7 +98,7 @@ const Skills = () => {
       >
         {activeSkills.map((skill, i) => {
           return (
-            <div key={i} className="col-6 col-sm-4 col-lg-3 mt-5">
+            <div key={i} className="col-6 col-sm-4 col-lg-3 mt-4">
               {skill.icon}
               <p
                 style={{ fontSize: "0.8rem" }}
