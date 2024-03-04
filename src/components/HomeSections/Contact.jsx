@@ -30,6 +30,14 @@ const Contact = () => {
         >
           <i className="fab fa-github"></i>
         </a>
+        <a
+          className="col-3 col-sm-2 col-lg-1 mt-4"
+          href="mailto:osunkiyesitayo@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-envelope"></i>
+        </a>
       </div>
     </section>
   );
